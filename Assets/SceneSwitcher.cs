@@ -1,9 +1,11 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Control : MonoBehaviour
+public class SceneSwitcher : MonoBehaviour
 {
-    public void NextScene()
+    public void GotoMainScene()
     {
         SceneManager.LoadScene("Neighborhood");
     }
