@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Neighborhood.unity
+- path: Assets/Scenes/Sally'sEx.unity
   isLoaded: 1
   isActive: 1
