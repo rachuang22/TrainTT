@@ -1,11 +1,1 @@
-sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Sally'sEx.unity
-=======
-- path: Assets/Scenes/MainMenu.unity
->>>>>>> c7b8d66efe7e6fd23c2a3f08bc6ce842a5bfcb57
-  isLoaded: 1
-  isActive: 1
-- path: Assets/Scenes/Neighborhood.unity
-  isLoaded: 1
-  isActive: 0
+sceneSetups: []
