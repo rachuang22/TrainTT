@@ -26,9 +26,7 @@ public class UIInteraction : MonoBehaviour {
     public UnityEngine.UI.Text outText;
 
 	public void OnButtonClicked() {
-        if (outText != null) {
-            outText.text = "<b>Last Interaction:</b>\nUI Button clicked";
-        }
+        SceneManager.LoadScene("Neighborhood");
     }
 
     public void OnSliderChanged(float value) {
