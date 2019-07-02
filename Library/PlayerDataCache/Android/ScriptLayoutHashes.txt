@@ -1,11 +1,8 @@
 Android
 PlayerPath?
-<<<<<<< HEAD
 C:/Users/rachu/Documents/GitHub/TrainTT/neighborhood.apk
-=======
-C:/Users/sk398t/Documents/GitHub/TrainTT/main.apk
->>>>>>> 72353be03e20a9b3f856a91638fa9fc0479ec2e0
 SceneListBegin?
+Assets/Scenes/Menu.unity
 Assets/Scenes/Neighborhood.unity
 SceneListEnd?
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ONSPVersion
