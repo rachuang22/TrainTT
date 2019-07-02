@@ -1,6 +1,14 @@
 Android
 PlayerPath?
+<<<<<<< HEAD
 C:/Users/dc671x/Desktop/projects/TrainTT/da.apk
+=======
+<<<<<<< HEAD
+C:/Users/rachu/Documents/GitHub/TrainTT/neighborhood.apk
+=======
+C:/Users/sk398t/Documents/GitHub/TrainTT/main.apk
+>>>>>>> 72353be03e20a9b3f856a91638fa9fc0479ec2e0
+>>>>>>> e76b34bc48e1a21010dea04103501978f64b08bc
 SceneListBegin?
 Assets/Scenes/Neighborhood.unity
 SceneListEnd?
@@ -298,7 +306,10 @@ ce638e2dcac0548a4a3e456d5051c131 Assembly-CSharp.dll:Oculus.Platform.Samples.VrH
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 34c971ccf5a4d4c276f7753251cba95d Oculus.VR.dll:.OVRGridCube
 cb284fadb8e39645038ce8579603d518 Assembly-CSharp.dll:.UIInteraction
+<<<<<<< HEAD
 b00ce1f32326f1cd1160488ffd14965a Oculus.VR.Editor.dll:.OVRConfig
+=======
+>>>>>>> e76b34bc48e1a21010dea04103501978f64b08bc
 8b9f42d72019bde2f9fe0667762eaff3 Assembly-CSharp.dll:.OvrAvatarSkinnedMeshRenderComponent
 6adf0680d8d7e110dab1c5470b12851b Oculus.VR.dll:.OVRLint
 f6663f59c4a6a3b5c4192715ebbadecd Assembly-CSharp.dll:ControllerSelection.OVRInputModule

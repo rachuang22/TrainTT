@@ -1,4 +1,21 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+sceneSetups:
+- path: Assets/Scenes/MainMenu.unity
+  isLoaded: 1
+  isActive: 1
+=======
+sceneSetups: []
+>>>>>>> 6c57add711c8023948c8e1eb78ecdf003d3779eb
+=======
+>>>>>>> e76b34bc48e1a21010dea04103501978f64b08bc
 sceneSetups:
 - path: Assets/Scenes/Neighborhood.unity
   isLoaded: 1
   isActive: 1
+<<<<<<< HEAD
+=======
+>>>>>>> 72353be03e20a9b3f856a91638fa9fc0479ec2e0
+>>>>>>> e76b34bc48e1a21010dea04103501978f64b08bc
