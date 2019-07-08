@@ -1,16 +1,4 @@
 sceneSetups:
 - path: Assets/Scenes/Neighborhood.unity
-<<<<<<< HEAD
-=======
-=======
-- path: Assets/Scenes/Menu.unity
-<<<<<<< HEAD
-  isLoaded: 0
-  isActive: 0
-- path: Assets/Scenes/Neighborhood.unity
-=======
->>>>>>> 6514bd976667a2949ab67405af96262db28bbc90
->>>>>>> f6370309db5d6776e8caf52c21b957785236e2e8
->>>>>>> 6f098003945f1b4f6675bdd87e41abbddac6ffa9
   isLoaded: 1
   isActive: 1
