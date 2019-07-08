@@ -5,6 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - Selectable
+  - ToolOne
+  - Dish
+  - ScrewOne
+  - ScrewTwo
+  - ScrewThree
+  - ScrewFour
+  - Drill
+  - ToolTwo
+  - ToolThree
   layers:
   - Default
   - TransparentFX
