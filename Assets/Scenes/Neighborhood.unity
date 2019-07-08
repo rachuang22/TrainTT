@@ -123,9 +123,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Screw_Cross (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013067567274, guid: 74ec0c569f1dd2744923b5ac0a7f687f, type: 3}
+      propertyPath: m_TagString
+      value: Selectable
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014148955798, guid: 74ec0c569f1dd2744923b5ac0a7f687f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.99002075
+      value: -0.986
       objectReference: {fileID: 0}
     - target: {fileID: 4000014148955798, guid: 74ec0c569f1dd2744923b5ac0a7f687f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -187,6 +191,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 42781638}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &47583958 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000012695253110, guid: f5a2d19d564785d45a6207078113bcaa,
+    type: 3}
+  m_PrefabInstance: {fileID: 173743557}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &47583959
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47583958}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 4ff6a85a9aba2f44eb43860d96164dce, type: 3}
 --- !u!1001 &113310511
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -434,6 +458,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Drill
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012695253110, guid: f5a2d19d564785d45a6207078113bcaa, type: 3}
+      propertyPath: m_TagString
+      value: Selectable
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011496336782, guid: f5a2d19d564785d45a6207078113bcaa, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.0040283
@@ -573,6 +601,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 232675446}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &325982692 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: faffec903a3c76a449fce5ea8a298734,
+    type: 3}
+  m_PrefabInstance: {fileID: 914083150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &325982696
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325982692}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &334012375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -648,6 +696,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 334012375}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &375467931 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 38d94f559d4c7da47badf5a75c23d4ee,
+    type: 3}
+  m_PrefabInstance: {fileID: 782633703}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &375467935
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375467931}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &424466244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1256,6 +1324,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: urban_building
       objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7b68ba23b425bd4c9c2778c82b83ede, type: 3}
+      propertyPath: m_TagString
+      value: Selectable
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7b68ba23b425bd4c9c2778c82b83ede, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.7496033
@@ -1318,6 +1390,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9d07a0d815f78754cb279947afbbc5c5, type: 3}
       propertyPath: m_Name
       value: tool1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9d07a0d815f78754cb279947afbbc5c5, type: 3}
+      propertyPath: m_TagString
+      value: Selectable
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9d07a0d815f78754cb279947afbbc5c5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1393,6 +1469,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 38d94f559d4c7da47badf5a75c23d4ee, type: 3}
       propertyPath: m_Name
       value: tool3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 38d94f559d4c7da47badf5a75c23d4ee, type: 3}
+      propertyPath: m_TagString
+      value: Selectable
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 38d94f559d4c7da47badf5a75c23d4ee, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1546,7 +1626,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.04
+      value: 5.18
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1797,6 +1877,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dish (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: faffec903a3c76a449fce5ea8a298734, type: 3}
+      propertyPath: m_TagString
+      value: Selectable
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: faffec903a3c76a449fce5ea8a298734, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.19000244
@@ -1874,7 +1958,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 31f01a755f892e34db847ce6c1a93d27, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.71
+      value: 1.7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 31f01a755f892e34db847ce6c1a93d27, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1947,9 +2031,10 @@ GameObject:
   - component: {fileID: 995880298}
   - component: {fileID: 995880300}
   - component: {fileID: 995880299}
+  - component: {fileID: 995880301}
   m_Layer: 0
   m_Name: SelectionVisualizer
-  m_TagString: Untagged
+  m_TagString: Selectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2082,6 +2167,21 @@ MonoBehaviour:
   rayDrawDistance: 500
   gazeDrawDistance: 3
   activeController: 0
+--- !u!114 &995880301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995880297}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8bc4de3b99a57949a2e0e305cc1216a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectableTag: Selectable
+  highlightMaterial: {fileID: 2100000, guid: e92c598ccd7563b408cb22916184a2e9, type: 2}
+  defaultMaterial: {fileID: 0}
 --- !u!1 &1044291710
 GameObject:
   m_ObjectHideFlags: 0
@@ -2402,6 +2502,7 @@ GameObject:
   - component: {fileID: 1403803813}
   - component: {fileID: 1403803815}
   - component: {fileID: 1403803814}
+  - component: {fileID: 1403803816}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -2468,6 +2569,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1403803812}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1403803816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403803812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8bc4de3b99a57949a2e0e305cc1216a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectableTag: Selectable
+  highlightMaterial: {fileID: 0}
+  defaultMaterial: {fileID: 0}
 --- !u!1001 &1449940097
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2627,6 +2743,10 @@ PrefabInstance:
     - target: {fileID: 1000013067567274, guid: 74ec0c569f1dd2744923b5ac0a7f687f, type: 3}
       propertyPath: m_Name
       value: Screw_Cross
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013067567274, guid: 74ec0c569f1dd2744923b5ac0a7f687f, type: 3}
+      propertyPath: m_TagString
+      value: Selectable
       objectReference: {fileID: 0}
     - target: {fileID: 4000014148955798, guid: 74ec0c569f1dd2744923b5ac0a7f687f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3018,6 +3138,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Screw_Cross (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013067567274, guid: 74ec0c569f1dd2744923b5ac0a7f687f, type: 3}
+      propertyPath: m_TagString
+      value: Selectable
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014148955798, guid: 74ec0c569f1dd2744923b5ac0a7f687f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.76000977
@@ -3092,6 +3216,10 @@ PrefabInstance:
     - target: {fileID: 1000013067567274, guid: 74ec0c569f1dd2744923b5ac0a7f687f, type: 3}
       propertyPath: m_Name
       value: Screw_Cross (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013067567274, guid: 74ec0c569f1dd2744923b5ac0a7f687f, type: 3}
+      propertyPath: m_TagString
+      value: Selectable
       objectReference: {fileID: 0}
     - target: {fileID: 4000014148955798, guid: 74ec0c569f1dd2744923b5ac0a7f687f, type: 3}
       propertyPath: m_LocalPosition.x
