@@ -601,7 +601,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 232675446}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
 --- !u!1 &248952588
 GameObject:
   m_ObjectHideFlags: 0
@@ -623,7 +622,6 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &248952589
 MonoBehaviour:
-=======
 --- !u!1 &325982692 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: faffec903a3c76a449fce5ea8a298734,
@@ -632,18 +630,16 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!64 &325982696
 MeshCollider:
->>>>>>> f6370309db5d6776e8caf52c21b957785236e2e8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 248952588}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
@@ -659,8 +655,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -712,7 +708,6 @@ RectTransform:
   m_AnchoredPosition: {x: 261.9, y: 8.8}
   m_SizeDelta: {x: 722, y: 458}
   m_Pivot: {x: 0.5, y: 0.5}
-=======
   m_GameObject: {fileID: 325982692}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -721,7 +716,6 @@ RectTransform:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
->>>>>>> f6370309db5d6776e8caf52c21b957785236e2e8
 --- !u!1001 &334012375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1502,11 +1496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9d07a0d815f78754cb279947afbbc5c5, type: 3}
       propertyPath: m_LocalPosition.y
-<<<<<<< HEAD
       value: -3.583996
-=======
-      value: -3.58
->>>>>>> 071d1b84c53d08e064e9fd729178be2588081e7e
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9d07a0d815f78754cb279947afbbc5c5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1765,8 +1755,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
@@ -1908,8 +1898,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd425c2d06f39bf4899d07c05d0f10eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   grabBegin: 0.55
   grabEnd: 0.35
   m_parentHeldObject: 0
@@ -1944,8 +1934,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd425c2d06f39bf4899d07c05d0f10eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   grabBegin: 0.55
   grabEnd: 0.35
   m_parentHeldObject: 0
@@ -2075,11 +2065,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: faffec903a3c76a449fce5ea8a298734, type: 3}
       propertyPath: m_LocalPosition.y
-<<<<<<< HEAD
       value: -3.75
-=======
-      value: -3.72
->>>>>>> 071d1b84c53d08e064e9fd729178be2588081e7e
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: faffec903a3c76a449fce5ea8a298734, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2351,8 +2337,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 12283131fa5724f44b343883ae474072, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   trackingSpace: {fileID: 1196771000}
   linePointer: {fileID: 995880299}
   gazePointer: {fileID: 0}
@@ -2369,8 +2355,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c8bc4de3b99a57949a2e0e305cc1216a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   selectableTag: Selectable
   highlightMaterial: {fileID: 2100000, guid: e92c598ccd7563b408cb22916184a2e9, type: 2}
   defaultMaterial: {fileID: 0}
@@ -2771,8 +2757,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c8bc4de3b99a57949a2e0e305cc1216a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   selectableTag: Selectable
   highlightMaterial: {fileID: 0}
   defaultMaterial: {fileID: 0}
