@@ -26,7 +26,7 @@ public class UIInteraction : MonoBehaviour {
     public UnityEngine.UI.Text outText;
 
 	public void OnButtonClicked() {
-        SceneManager.LoadScene("Neighborhood");
+        SceneManager.LoadScene(1);
     }
 
     public void OnSliderChanged(float value) {
@@ -50,4 +50,5 @@ public class UIInteraction : MonoBehaviour {
     public void OnBackToMenu() {
         SceneManager.LoadScene("main", LoadSceneMode.Single);
     }
+
 }
