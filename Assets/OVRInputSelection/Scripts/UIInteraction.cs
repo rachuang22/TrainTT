@@ -19,14 +19,18 @@ limitations under the License.
 
 ************************************************************************************/
 
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UIInteraction : MonoBehaviour {
     public UnityEngine.UI.Text outText;
 
 	public void OnButtonClicked() {
         SceneManager.LoadScene("Neighborhood");
+        Debug.Log("lol");
     }
 
     public void OnSliderChanged(float value) {
