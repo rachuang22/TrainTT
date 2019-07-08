@@ -6,7 +6,10 @@ public class SelectionManager : MonoBehaviour
     [SerializeField] private Material highlightMaterial;
     [SerializeField] private Material defaultMaterial;
 
-    private Transform _selection; 
+    private Transform _selection;
+
+    public Transform target;
+    public float speed;
 
     private void Update()
     {
@@ -27,8 +30,9 @@ public class SelectionManager : MonoBehaviour
                 var selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    float step = speed * Time.deltaTime;
                     selectionRenderer.material = highlightMaterial;
-                    selectionRenderer.transform.Translate(0, (float) 0.5, 0);
+                    selectionRenderer.transform.Translate(0, 0, (float)0.5 * Time.deltaTime);
                 }
                 _selection = selection;
             }
