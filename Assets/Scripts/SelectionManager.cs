@@ -15,9 +15,12 @@ public class SelectionManager : MonoBehaviour
     [SerializeField] private Material defaultMaterial;
 
     private Transform _selection;
+    public Transform start;
+    public Transform end;
 
     public Transform target;
     public float speed;
+    Vector3 myVector;
 
     private void Update()
     {
@@ -30,7 +33,7 @@ public class SelectionManager : MonoBehaviour
 
         var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
-        if (Physics.Raycast(ray, out hit))
+        if (Physics.Raycast(ray, out hit) && Input.GetMouseButtonDown(0))
         {
             var selection = hit.transform;
             if (selection.CompareTag(Tag1) || selection.CompareTag(Tag2) || selection.CompareTag(Tag3) ||
@@ -42,44 +45,67 @@ public class SelectionManager : MonoBehaviour
                 {
                     if (selection.CompareTag(Tag1))
                     {
-                        float step = speed * Time.deltaTime;
-                        selectionRenderer.material = highlightMaterial;
-                        selectionRenderer.transform.Translate(0, 0, (float)0.5 * Time.deltaTime);
+                        //myVector = new Vector3(5f, -2.5f, 3f);
+                        //float step = speed * Time.deltaTime;
+                        //float dist = Vector3.Distance(selectionRenderer.transform.position, myVector);
+                        //selectionRenderer.material = highlightMaterial;
+                        //print(selectionRenderer.transform.position);
+                        //selectionRenderer.transform.position = Vector3.MoveTowards(selectionRenderer.transform.position, myVector, (float) 1.0);
+
+
+                        //selectionRenderer.transform.Translate(0, 0, (float)0.5 * Time.deltaTime);
                     }
                     if (selection.CompareTag(Tag2))
                     {
-
+                        myVector = new Vector3(263.01f, 5.0f, 84.78f);
+                        selectionRenderer.material = highlightMaterial;
+                        selectionRenderer.transform.position = Vector3.Lerp(selectionRenderer.transform.position, myVector, 1);
                     }
                     if (selection.CompareTag(Tag3))
                     {
-
+                        myVector = new Vector3(262.5f, 5.1f, 84.78f);
+                        selectionRenderer.material = highlightMaterial;
+                        selectionRenderer.transform.position = Vector3.Lerp(selectionRenderer.transform.position, myVector, 1);
                     }
                     if (selection.CompareTag(Tag4))
                     {
-
+                        myVector = new Vector3(263.3f, 5.3f, 84.4f);
+                        selectionRenderer.material = highlightMaterial;
+                        selectionRenderer.transform.position = Vector3.Lerp(selectionRenderer.transform.position, myVector, 1);
                     }
                     if (selection.CompareTag(Tag5))
                     {
-
+                        myVector = new Vector3(263.3f, 5.3f, 84.4f);
+                        selectionRenderer.material = highlightMaterial;
+                        selectionRenderer.transform.position = Vector3.Lerp(selectionRenderer.transform.position, myVector, 1);
                     }
                     if (selection.CompareTag(Tag6))
                     {
-
+                        myVector = new Vector3(263.3f, 5.3f, 84.4f);
+                        selectionRenderer.material = highlightMaterial;
+                        selectionRenderer.transform.position = Vector3.Lerp(selectionRenderer.transform.position, myVector, 1);
                     }
                     if (selection.CompareTag(Tag7))
                     {
-
+                        myVector = new Vector3(263.3f, 5.3f, 84.4f);
+                        selectionRenderer.material = highlightMaterial;
+                        selectionRenderer.transform.position = Vector3.Lerp(selectionRenderer.transform.position, myVector, 1);
                     }
                     if (selection.CompareTag(Tag8))
                     {
-
+                        myVector = new Vector3(263.3f, 5.3f, 84.4f);
+                        selectionRenderer.material = highlightMaterial;
+                        selectionRenderer.transform.position = Vector3.Lerp(selectionRenderer.transform.position, myVector, 1);
                     }
                     if (selection.CompareTag(Tag9))
                     {
-
+                        myVector = new Vector3(263.3f, 5.3f, 84.4f);
+                        selectionRenderer.material = highlightMaterial;
+                        selectionRenderer.transform.position = Vector3.Lerp(selectionRenderer.transform.position, myVector, 1);
                     }
                 }
                 _selection = selection;
+                selectionRenderer.material = defaultMaterial;
             }
         }
     }
