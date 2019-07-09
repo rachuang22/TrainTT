@@ -615,8 +615,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 232675446}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &248952588
 GameObject:
   m_ObjectHideFlags: 0
@@ -746,7 +744,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 9c26a2b9a396e93449a2b321f7cbae67, type: 3}
->>>>>>> d56c8e241523dd3fb38ff8a341c9ab1b2efb5efe
 --- !u!1001 &334012375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1527,11 +1524,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9d07a0d815f78754cb279947afbbc5c5, type: 3}
       propertyPath: m_LocalPosition.y
-<<<<<<< HEAD
-      value: -3.58
-=======
       value: -3.583996
->>>>>>> f02a6fd2fe54b230801bdd4911bc460e19c98730
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9d07a0d815f78754cb279947afbbc5c5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1743,8 +1736,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 792695989}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &847432778
 GameObject:
   m_ObjectHideFlags: 0
@@ -1824,7 +1815,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 847432778}
   m_CullTransparentMesh: 0
->>>>>>> d56c8e241523dd3fb38ff8a341c9ab1b2efb5efe
 --- !u!1001 &904489010
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2103,11 +2093,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: faffec903a3c76a449fce5ea8a298734, type: 3}
       propertyPath: m_LocalPosition.y
-<<<<<<< HEAD
-      value: -3.75
-=======
       value: -4.027
->>>>>>> f02a6fd2fe54b230801bdd4911bc460e19c98730
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: faffec903a3c76a449fce5ea8a298734, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2403,7 +2389,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8bc4de3b99a57949a2e0e305cc1216a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectableTag: Selectable
+  Tag1: ToolOne
+  Tag2: ToolTwo
+  Tag3: ToolThree
+  Tag4: Dish
+  Tag5: Drill
+  Tag6: ScrewOne
+  Tag7: ScrewTwo
+  Tag8: ScrewThree
+  Tag9: ScrewFour
   highlightMaterial: {fileID: 2100000, guid: e92c598ccd7563b408cb22916184a2e9, type: 2}
   defaultMaterial: {fileID: 0}
   target: {fileID: 0}
@@ -2737,6 +2731,82 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1280014257}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1321336961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1321336964}
+  - component: {fileID: 1321336963}
+  - component: {fileID: 1321336962}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1321336962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321336961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a9c50de96f6d04386957f4741ac65c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackingSpace: {fileID: 1196771000}
+  joyPadClickButton: 8192
+  performSphereCastForGazepointer: 0
+  matchNormalOnPhysicsColliders: 0
+  useLeftStickScroll: 1
+  leftStickDeadZone: 0.15
+  useSwipeScroll: 1
+  minSwipeMovement: 0
+  swipeScrollScale: 4
+  activeController: 0
+  angleDragThreshold: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_AllowActivationOnMobileDevice: 1
+--- !u!114 &1321336963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321336961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1321336964
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321336961}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1403803812
 GameObject:
   m_ObjectHideFlags: 0
@@ -2827,99 +2897,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8bc4de3b99a57949a2e0e305cc1216a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectableTag: Selectable
+  Tag1: ToolOne
+  Tag2: ToolTwo
+  Tag3: ToolThree
+  Tag4: Dish
+  Tag5: Drill
+  Tag6: ScrewOne
+  Tag7: ScrewTwo
+  Tag8: ScrewThree
+  Tag9: ScrewFour
   highlightMaterial: {fileID: 0}
   defaultMaterial: {fileID: 0}
-<<<<<<< HEAD
---- !u!1 &1440737310
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1440737313}
-  - component: {fileID: 1440737312}
-  - component: {fileID: 1440737311}
-  m_Layer: 0
-  m_Name: EventSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1440737311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1440737310}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
---- !u!114 &1440737312
-MonoBehaviour:
-=======
   target: {fileID: 0}
   speed: 0
---- !u!1 &1410760641 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: 9d07a0d815f78754cb279947afbbc5c5,
-    type: 3}
-  m_PrefabInstance: {fileID: 720130503}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &1410760645
-MeshCollider:
->>>>>>> d56c8e241523dd3fb38ff8a341c9ab1b2efb5efe
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1440737310}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &1440737313
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1440737310}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
-  m_GameObject: {fileID: 1410760641}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
->>>>>>> d56c8e241523dd3fb38ff8a341c9ab1b2efb5efe
 --- !u!1001 &1449940097
 PrefabInstance:
   m_ObjectHideFlags: 0
