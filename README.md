@@ -1,6 +1,6 @@
 # TrainTT
 
- [![TrainT&T Logo](./Imgs/logo.png)](https://tspace.web.att.com/communities/service/html/communityview?communityUuid=65890199-096b-4167-9ba5-e76aad68ec98#fullpageWidgetId=W893ae8ce93df_4eef_8342_db73a8979e5a&file=3fa00968-2fb6-4919-bca9-729df3b27818)
+<img src="https://github.com/rachuang22/TrainTT/blob/master/logo.png" width="300" height="300" />
 
 ### **The Future of Contingency Planning Training**
 Intern coding challenge for AT&T 2019
@@ -23,7 +23,7 @@ Intern coding challenge for AT&T 2019
 
 
 ## Get Started
-Use the following powerpoint to get Unity set up and running. The presentation is located in the `resources\OculusHowTo.ppt`
+Use the following powerpoint to get Unity set up and running. The presentation is located in the `OculusHowTo.ppt`
 
 ## Contributors
 |<img src="https://github.com/sallykim5/personal/blob/master/sally.jpg" width="300" height="200" />| <img src="https://github.com/sallykim5/personal/blob/master/rachel.jpg" width="300" height="200" /> | <img src="https://github.com/sallykim5/personal/blob/master/dayoung.jpg" width="300" height="200" /> | <img src="https://github.com/sallykim5/personal/blob/master/liam.jpg" width="300" height="200" /> |
