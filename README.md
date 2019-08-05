@@ -7,16 +7,16 @@ Intern coding challenge for AT&T 2019
 > We created a Virtual Reality solution to Contigency Planning Training to save AT&T employees time and resources. 
 ****
 ### **What does it do?**
-![TrainT&T Gif 1](./Imgs/gif1.gif)
+![TrainT&T Gif 1](https://github.com/sallykim5/personal/blob/master/gif1.gif)
 > Our solution to the high costs of Contingency Planning training is a virtual reality training module. Ours focuses specifically on teaching employees how to assemble a satellite. 
 
-![TrainT&T Gif 2](./Imgs/gif2.gif)
+![TrainT&T Gif 2](https://github.com/sallykim5/personal/blob/master/gif2.gif)
 > As they enter the environment, the laser pointer can interact with the objects. The object that needs to be selected is highlighted yellow. When you select the wrong object, it will display an error warning.
 
-![TrainT&T Gif 3](./Imgs/gif3.gif)
+![TrainT&T Gif 3](https://github.com/sallykim5/personal/blob/master/gif3.gif)
 > As the trainee selects the correct objects, the object clicks into place and the next step is displayed.
 
-![TrainT&T Gif 4](./Imgs/gif4.gif)
+![TrainT&T Gif 4](https://github.com/sallykim5/personal/blob/master/gif4.gif)
 > In the end, we see the finished product of the satellite and the trainee is rewarded with the sound of people cheering :smiley:
 
 ![Complete training image](https://i.imgur.com/ZAaSl1S.png)
